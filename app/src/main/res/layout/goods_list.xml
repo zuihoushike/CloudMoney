@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:padding="10dp">
+
+    <CheckBox
+        android:id="@+id/cb_goods_select"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/goods_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/goods_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/home_female_pic"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/goods_icon"
+            android:layout_alignTop="@id/goods_icon"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/goods_icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/goods_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="飞行装女士最新款春装"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/goods_scan_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="浏览60"
+                    android:textColor="#a0a0a0"
+                    android:textSize="16sp"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#a0a0a0"/>
+
+                <TextView
+                    android:id="@+id/goods_selled_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="已售50"
+                    android:textColor="#a0a0a0"
+                    android:textSize="16sp"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#a0a0a0"/>
+
+                <TextView
+                    android:id="@+id/goods_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="上架"
+                    android:textColor="#ff6100"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/goods_icon"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/goods_icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/goods_price"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="￥100.00"
+                android:textColor="#ff6100"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="编辑"
+                android:textColor="#a0a0a0"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

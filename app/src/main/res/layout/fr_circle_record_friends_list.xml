@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativelayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="16dp"
+                android:paddingBottom="4dp"
+                android:paddingRight="7dp"
+                android:src="@mipmap/xl6"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_toRightOf="@+id/imageView3"
+                android:layout_centerVertical="true"
+                android:maxEms="13"
+                android:ellipsize="end"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="这个群组的名字最长显示十三..."/>
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="1000/50000"
+                android:textColor="#efefef"
+                android:textSize="10sp"/>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/v3"
+            style="@style/SplitThin"
+            android:layout_below="@id/relativelayout1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+
+    <include layout="@layout/record_friends_list_item"/>
+
+    <include layout="@layout/record_friends_list_item"/>
+
+    <include layout="@layout/record_friends_list_item"/>
+
+    <include layout="@layout/record_friends_list_item"/>
+
+    <include layout="@layout/record_friends_list_item"/>
+
+</LinearLayout>

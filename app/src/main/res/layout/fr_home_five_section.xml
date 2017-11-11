@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:paddingBottom="10dp"
+              android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/home_life_cross"
+        style="@style/HomeFiveSection"
+        android:drawableTop="@mipmap/icon_index_life"
+        android:text="生活通"
+        />
+
+    <TextView
+        style="@style/HomeFiveSection"
+        android:drawableTop="@mipmap/icon_index_factory"
+        android:text="工厂通"
+        />
+
+    <TextView
+        style="@style/HomeFiveSection"
+        android:drawableTop="@mipmap/icon_index_idle"
+        android:text="淘乐街"
+        />
+
+    <TextView
+        style="@style/HomeFiveSection"
+        android:drawableTop="@mipmap/icon_index_news"
+        android:text="咨询台"
+        />
+
+    <TextView
+        android:id="@+id/tv_frag_home_cloud"
+        style="@style/HomeFiveSection"
+        android:drawableTop="@mipmap/icon_index_merchant"
+        android:text="云商宝"
+        />
+
+</LinearLayout>

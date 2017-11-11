@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:text="猜你喜欢"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/textview1"
+            android:src="@mipmap/icon_index_title_l"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/textview1"
+            android:src="@mipmap/icon_index_title_r"/>
+    </RelativeLayout>
+
+    <View
+        style="@style/SplitThin"/>
+    <!--<name.hd.cloudmoney.tools.NoRollListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            style="@style/HomeGuessYouLikeTotal">
+
+            <ImageView
+                android:id="@+id/imageview1"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:src="@mipmap/home_female_pic"/>
+            <TextView
+                android:id="@+id/textview2"
+                style="@style/HomeGuessYouLikeName"
+                android:layout_below="@id/imageview1"
+                android:text="最新款卫衣 女2017加厚 宽"
+                />
+
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/imageview1"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/textview2"
+                android:text="￥59"
+                android:textSize="17sp"
+                android:textColor="#ff6100"/>
+            <TextView
+                android:id="@+id/home_goods_original_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#a0a0a0"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/textview3"
+                android:layout_below="@id/textview2"
+                android:textSize="15sp"
+                android:text="￥199"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/textview2"
+                android:layout_marginRight="10dp"
+                android:layout_alignRight="@id/imageview1"
+                android:src="@mipmap/btn_shopping"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/HomeGuessYouLikeTotal">
+
+            <ImageView
+                android:id="@+id/imageview2"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:src="@mipmap/home_female_pic"/>
+            <TextView
+                android:id="@+id/textview5"
+                style="@style/HomeGuessYouLikeName"
+                android:layout_below="@id/imageview2"
+                android:text="最新款卫衣 女2017加厚 宽"
+                />
+            <TextView
+                android:id="@+id/textview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/imageview2"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/textview5"
+                android:text="￥59"
+                android:textSize="17sp"
+                android:textColor="#ff6100"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/textview5"
+                android:layout_marginRight="10dp"
+                android:layout_alignRight="@id/imageview2"
+                android:src="@mipmap/btn_shopping"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <!--</name.hd.cloudmoney.tools.NoRollListView>-->
+
+</LinearLayout>

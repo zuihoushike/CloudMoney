@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--主页-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="name.hd.cloudmoney.CloudBussActivity">
+
+    <include
+        android:id="@+id/cloud_fixed_title"
+        layout="@layout/cloud_fixed_search"/>
+    <!--标题栏下放ScrollView使标题栏下可以滚动-->
+    <name.hd.cloudmoney.view.SmartScrollView
+        android:id="@+id/sv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/main_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <include layout="@layout/cloud_lable"/>
+
+            <include layout="@layout/cloud_selled_goods" />
+
+            <include layout="@layout/crude_split"/>
+
+            <include layout="@layout/cloud_shop_data"/>
+
+            <include layout="@layout/crude_split"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/index_banner"/>
+
+            <include layout="@layout/crude_split"/>
+
+            <include layout="@layout/cloud_four_manager"/>
+
+            <include layout="@layout/crude_split"/>
+
+            <include layout="@layout/cloud_flow_analyze"/>
+
+            <include layout="@layout/crude_split"/>
+
+            <include layout="@layout/cloud_bussiness_book"/>
+        </LinearLayout>
+    </name.hd.cloudmoney.view.SmartScrollView>
+</LinearLayout>

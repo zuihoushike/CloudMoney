@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--搜索和八个标签-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@mipmap/bg_business"
+              android:orientation="vertical">
+
+    <View
+        android:id="@+id/cloud_status_color"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#00ffffff"/>
+
+    <include layout="@layout/cloud_title" android:id="@+id/cloud_active_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/main_goods_manager"
+            style="@style/CloudCircle"
+            android:drawableTop="@mipmap/icon_business_goods"
+            android:text="商品管理"
+            />
+
+        <TextView
+            android:id="@+id/main_order_manager"
+            style="@style/CloudCircle"
+            android:drawableTop="@mipmap/icon_business_order"
+            android:text="订单管理"
+            />
+
+        <TextView
+            android:id="@+id/main_bussiness_stat"
+            style="@style/CloudCircle"
+            android:drawableTop="@mipmap/icon_business_turnover"
+            android:text="营业统计"
+            />
+
+        <TextView
+            android:id="@+id/main_custom_stat"
+            style="@style/CloudCircle"
+            android:drawableTop="@mipmap/icon_business_custom"
+            android:text="定制/直批"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/main_shop_manager"
+            style="@style/CloudCircle"
+            android:drawableTop="@mipmap/icon_business_shops"
+            android:text="店铺管理"
+            />
+
+        <TextView
+            android:id="@+id/main_marketing_manager"
+            style="@style/CloudCircle"
+            android:drawableTop="@mipmap/icon_business_marketing"
+            android:text="营销管理"
+            />
+
+        <TextView
+            android:id="@+id/main_shop_angel"
+            style="@style/CloudCircle"
+            android:drawableTop="@mipmap/icon_business_angel"
+            android:text="店铺天使"
+            />
+
+        <TextView
+            android:id="@+id/main_shop_chain"
+            style="@style/CloudCircle"
+            android:drawableTop="@mipmap/icon_business_chain"
+            android:text="门店连锁"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#555577"
+    android:paddingBottom="10dp"
+    android:paddingTop="20dp">
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <TextView
+            style="@style/MoneysMoney"
+            android:text="300"
+            android:textSize="34sp"
+            android:textColor="#ffffff"/>
+        <ImageView
+            style="@style/MoneysMoney"
+            android:src="@mipmap/money17"/>
+        <TextView
+            style="@style/MoneysMoney"
+            android:text="2"
+            android:textSize="34sp"
+            android:textColor="#ffffff"/>
+        <ImageView
+            style="@style/MoneysMoney"
+            android:src="@mipmap/money18"/>
+        <TextView
+            style="@style/MoneysMoney"
+            android:text="8"
+            android:textSize="34sp"
+            android:textColor="#ffffff"/>
+        <ImageView
+            style="@style/MoneysMoney"
+            android:src="@mipmap/money19"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/linearlayout1"
+        android:layout_centerHorizontal="true"
+        >
+        <TextView
+            style="@style/MoneysMoney"
+            android:text="总金额: ￥300.28"
+            android:textSize="19sp"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

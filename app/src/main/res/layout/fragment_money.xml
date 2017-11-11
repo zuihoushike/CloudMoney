@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="name.hd.cloudmoney.fragment.MoneyFragment">
+    <!--这个view用来使通知栏变成和界面一个颜色-->
+    <include
+        android:id="@+id/fr_money_gone_title"
+        layout="@layout/fr_money_gone_title"
+        />
+
+    <name.hd.cloudmoney.view.SmartScrollView
+        android:id="@+id/sv_money"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <include layout="@layout/fr_money_title" android:id="@+id/fr_money_title"/>
+
+            <include layout="@layout/fr_money_money"/>
+
+            <include layout="@layout/fr_money_sw_pay_credit"/>
+
+            <include layout="@layout/fr_money_function"/>
+
+            <include layout="@layout/crude_split"/>
+
+            <include layout="@layout/fr_money_manager_money_product"/>
+
+            <include layout="@layout/crude_split"/>
+
+            <include layout="@layout/fr_money_fund_rank"/>
+
+            <include layout="@layout/crude_split"/>
+
+            <include layout="@layout/fr_money_finance_info"/>
+        </LinearLayout>
+    </name.hd.cloudmoney.view.SmartScrollView>
+
+</LinearLayout>

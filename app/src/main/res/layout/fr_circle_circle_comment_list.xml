@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/xiang2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/x2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/dt6"/>
+
+        <TextView
+            android:id="@+id/tex9"
+            style="@style/FindDynamicComment"
+            android:layout_alignTop="@+id/x2"
+            android:layout_toRightOf="@+id/x2"
+            android:text="路飞"/>
+
+        <TextView
+            android:id="@+id/tex10"
+            style="@style/FindDynamicComment"
+            android:layout_below="@+id/tex9"
+            android:layout_toRightOf="@+id/x2"
+            android:text="我要当船长"
+            />
+
+        <View
+            style="@style/SplitThin"
+            android:layout_alignLeft="@id/tex9"
+            android:layout_below="@id/tex10"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/xiang3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/x3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/dt7"/>
+
+        <TextView
+            android:id="@+id/tex21"
+            style="@style/FindDynamicComment"
+            android:layout_alignTop="@+id/x3"
+            android:layout_toRightOf="@+id/x3"
+            android:text="乌索普"/>
+
+        <TextView
+            android:id="@+id/tex22"
+            style="@style/FindDynamicComment"
+            android:layout_below="@+id/tex21"
+            android:layout_toRightOf="@+id/x3"
+            android:text="乌索普回复路飞：我才是船长"
+            />
+
+        <View
+            style="@style/SplitThin"
+            android:layout_alignLeft="@id/tex22"
+            android:layout_below="@id/tex22"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/xiang4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/x4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:src="@mipmap/dt8"/>
+
+        <TextView
+            android:id="@+id/tex31"
+            style="@style/FindDynamicComment"
+            android:layout_alignTop="@+id/x4"
+            android:layout_toRightOf="@+id/x4"
+            android:text="乔巴"/>
+
+        <TextView
+            android:id="@+id/tex32"
+            style="@style/FindDynamicComment"
+            android:layout_below="@+id/tex31"
+            android:layout_toRightOf="@+id/x4"
+            android:text="乔巴回复路飞：我要吃棒棒糖。"
+            />
+    </RelativeLayout>
+</LinearLayout>

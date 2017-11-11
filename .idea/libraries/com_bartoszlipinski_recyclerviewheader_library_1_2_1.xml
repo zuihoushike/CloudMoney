@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.bartoszlipinski.recyclerviewheader:library-1.2.1">
+    <CLASSES>
+      <root url="file://D:/Tools/Gradle/gradle-4.1-rc-2/caches/transforms-1/files-1.1/library-1.2.1.aar/995e34604d3fbf403937e0baa9463efd/res" />
+      <root url="jar://D:/Tools/Gradle/gradle-4.1-rc-2/caches/transforms-1/files-1.1/library-1.2.1.aar/995e34604d3fbf403937e0baa9463efd/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Tools/Gradle/gradle-4.1-rc-2/caches/modules-2/files-2.1/com.bartoszlipinski.recyclerviewheader/library/1.2.1/71769ef8669415af218b3f3977cd777e9e862853/library-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

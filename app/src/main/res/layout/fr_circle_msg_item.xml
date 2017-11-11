@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x1"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/pic_admin"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/x1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/ChatUserName"
+                android:text="这个名字最长十二个字那就..."
+                />
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/ChatInfoPreview"
+                android:text="这里是简介或消息，这个消息很长很长..."
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/linearlayout1"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/linearlayout1"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/ChatInfoTime"
+                android:text="09:05"
+                />
+
+            <TextView
+                android:id="@+id/te4"
+                style="@style/ChatMsgNum"
+                android:text="5321"
+                />
+        </LinearLayout>
+        <View
+            style="@style/SplitThin"
+            android:layout_below="@id/linearlayout1"
+            android:layout_alignLeft="@id/linearlayout1"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/x2"
+        style="@style/ChatHeadIcon"
+        android:src="@mipmap/xx1"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/x2"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ChatUserName"
+            android:text="这个名字最长十二个字那就..."
+            />
+
+        <TextView
+            style="@style/ChatInfoPreview"
+            android:text="这里是简介或消息，这个消息很长很长..."
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/linearlayout2"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/linearlayout2"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ChatInfoTime"
+            android:text="09:05"
+            />
+
+        <TextView
+            style="@style/ChatMsgNum"
+            android:text="321"
+            />
+    </LinearLayout>
+    <View
+        style="@style/SplitThin"
+        android:layout_below="@id/linearlayout2"
+        android:layout_alignLeft="@id/linearlayout2"
+        android:layout_marginTop="20dp"
+        />
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x3"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/xx2"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/x3"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ChatUserName"
+                android:text="一杯奶茶"
+                />
+
+            <TextView
+                style="@style/ChatInfoPreview"
+                android:text="这里是简介或消息"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/linearlayout3"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/linearlayout3"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ChatInfoTime"
+                android:text="09:05"
+                />
+
+            <TextView
+                style="@style/ChatMsgNum"
+                android:text="21"
+                />
+        </LinearLayout>
+        <View
+            style="@style/SplitThin"
+            android:layout_below="@id/linearlayout3"
+            android:layout_alignLeft="@id/linearlayout3"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x4"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/xx3"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/x4"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ChatUserName"
+                android:text="一起开黑王者荣耀群"
+                />
+
+            <TextView
+                style="@style/ChatInfoPreview"
+                android:text="这里是简介或消息"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/linearlayout4"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/linearlayout4"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ChatInfoTime"
+                android:text="09:05"
+                />
+
+            <TextView
+                style="@style/ChatMsgNum"
+                android:text="1"
+                />
+        </LinearLayout>
+        <View
+            style="@style/SplitThin"
+            android:layout_below="@id/linearlayout4"
+            android:layout_alignLeft="@id/linearlayout4"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x5"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/dt7"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/x5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ChatUserName"
+                android:text="一杯奶茶"
+                />
+
+            <TextView
+                style="@style/ChatInfoPreview"
+                android:text="这里是简介或消息"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/linearlayout5"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/linearlayout5"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ChatInfoTime"
+                android:text="09:05"
+                />
+
+            <TextView
+                style="@style/ChatMsgNum"
+                android:text="53"
+                />
+        </LinearLayout>
+        <View
+            style="@style/SplitThin"
+            android:layout_below="@id/linearlayout5"
+            android:layout_alignLeft="@id/linearlayout5"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x6"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/xx4"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/x6"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ChatUserName"
+                android:text="一杯奶茶"
+                />
+
+            <TextView
+                style="@style/ChatInfoPreview"
+                android:text="这里是简介或消息"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/linearlayout6"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/linearlayout6"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ChatInfoTime"
+                android:text="09:05"
+                />
+
+            <TextView
+                style="@style/ChatMsgNum"
+                android:text="53"
+                />
+        </LinearLayout>
+        <View
+            style="@style/SplitThin"
+            android:layout_below="@id/linearlayout6"
+            android:layout_alignLeft="@id/linearlayout6"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x7"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/xl7"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/x7"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ChatUserName"
+                android:text="一杯奶茶"
+                />
+
+            <TextView
+                style="@style/ChatInfoPreview"
+                android:text="这里是简介或消息"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/linearlayout7"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/linearlayout7"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ChatInfoTime"
+                android:text="09:05"
+                />
+
+            <TextView
+                style="@style/ChatMsgNum"
+                android:text="53"
+                />
+        </LinearLayout>
+        <View
+            style="@style/SplitThin"
+            android:layout_below="@id/linearlayout7"
+            android:layout_alignLeft="@id/linearlayout7"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+</LinearLayout>

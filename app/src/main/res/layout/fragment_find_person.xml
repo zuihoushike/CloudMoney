@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="name.hd.cloudmoney.fragment.FindPersonFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <include layout="@layout/fr_find_person_up"/>
+
+            <View style="@style/SplitThin"/>
+
+            <include layout="@layout/itme_funren"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

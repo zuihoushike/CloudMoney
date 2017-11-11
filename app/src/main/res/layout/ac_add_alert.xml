@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dr_add_alert"
+    >
+    <TextView
+        android:id="@+id/launch_group_chat"
+        style="@style/FindAddText"
+        android:text="发起群聊"
+        />
+    <View
+        style="@style/SplitThin"
+        android:layout_width="wrap_content"/>
+    <TextView
+        style="@style/FindAddText"
+        android:text="添加朋友"
+        />
+    <View
+        style="@style/SplitThin"
+        android:layout_width="wrap_content"/>
+    <TextView
+        android:id="@+id/circle_find_swipe"
+        style="@style/FindAddText"
+        android:text="扫一扫"
+        />
+    <View
+        style="@style/SplitThin"
+        android:layout_width="wrap_content"/>
+    <TextView
+        style="@style/FindAddText"
+        android:text="发布动态"
+        />
+
+
+</LinearLayout>

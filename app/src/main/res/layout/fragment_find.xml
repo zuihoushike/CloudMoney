@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#ffffff"
+             tools:context="name.hd.cloudmoney.fragment.FindFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:id="@+id/fr_find_status_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ffffff"/>
+    <include layout="@layout/fr_find_title"/>
+
+</LinearLayout>

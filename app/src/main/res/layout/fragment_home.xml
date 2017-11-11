@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical"
+              tools:context="name.hd.cloudmoney.fragment.HomeFragment">
+    <!--focesable和focusableTouchMode两句合起来使启动时页面不再在页面中间-->
+    <include
+        android:id="@+id/home_fixed_title"
+        layout="@layout/fr_home_gone_title"/>
+
+    <name.hd.cloudmoney.view.SmartScrollView
+        android:id="@+id/sv_monitor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <include layout="@layout/fr_home_banner_above"/>
+
+            <include layout="@layout/fr_home_five_section"/>
+
+            <include layout="@layout/crude_split"/>
+
+            <include layout="@layout/fr_home_headlines"/>
+
+            <include layout="@layout/crude_split"/>
+
+            <include layout="@layout/fr_home_cream_select_buy"/>
+
+            <include layout="@layout/crude_split"/>
+
+            <include layout="@layout/fr_home_near_merchant"/>
+
+            <include layout="@layout/crude_split"/>
+
+            <include layout="@layout/fr_home_guess_you_like"/>
+        </LinearLayout>
+    </name.hd.cloudmoney.view.SmartScrollView>
+</LinearLayout>

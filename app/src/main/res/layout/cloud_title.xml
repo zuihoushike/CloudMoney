@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--标题栏-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/nav_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:src="@mipmap/nav_arrow_left"/>
+
+        <TextView
+            style="@style/PageTitle"
+            android:layout_centerVertical="true"
+            android:text="店铺名称"
+            android:textColor="#ffffff"
+            />
+
+        <ImageView
+            android:id="@+id/nav_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:paddingRight="15dp"
+            android:src="@mipmap/nav_share"/>
+
+        <TextView
+            android:id="@+id/main_shop_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/nav_share"
+            android:text="资料"
+            android:textColor="#ffffff"
+            android:textSize="21sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_cloud_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/iv_searchbox"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/search_box"/>
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/search"
+            android:translationX="-20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_search"
+            android:text="搜索"
+            android:textSize="21sp"
+            android:translationX="-20dp"/>
+
+    </RelativeLayout>
+</LinearLayout>

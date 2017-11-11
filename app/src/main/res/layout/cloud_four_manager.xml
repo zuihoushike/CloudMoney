@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--四个管理-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+        <TextView
+            style="@style/CloudFourManager"
+            android:text="销售管理"
+            android:drawableTop="@mipmap/icon_business_marketing_sale_1"
+            />
+        <TextView
+            style="@style/CloudFourManager"
+            android:text="广告管理"
+            android:drawableTop="@mipmap/icon_business_marketing_ad"
+            />
+        <TextView
+            style="@style/CloudFourManager"
+            android:text="订阅号"
+            android:drawableTop="@mipmap/icon_business_marketing_subscribe"
+            />
+        <TextView
+            style="@style/CloudFourManager"
+            android:text="推广活动"
+            android:drawableTop="@mipmap/icon_business_marketing_extend"
+            />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="好评度"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        <RadioButton
+            style="@style/GoodsActive"
+            android:text="好评"/>
+        <RadioButton
+            style="@style/GoodsActive"
+            android:text="中评"/>
+        <RadioButton
+            style="@style/GoodsActive"
+            android:text="差评"/>
+
+    </RadioGroup>
+    <View
+        style="@style/SplitThin"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

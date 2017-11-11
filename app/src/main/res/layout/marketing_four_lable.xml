@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--四个管理-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="#00aaaa"
+    >
+
+    <TextView
+        style="@style/CloudCircle"
+        android:drawableTop="@mipmap/activity"
+        android:text="销售管理"
+        />
+
+    <TextView
+        style="@style/CloudCircle"
+        android:drawableTop="@mipmap/activity"
+        android:text="广告管理"
+        />
+
+    <TextView
+        style="@style/CloudCircle"
+        android:drawableTop="@mipmap/activity"
+        android:text="订阅号"
+        />
+
+    <TextView
+        style="@style/CloudCircle"
+        android:drawableTop="@mipmap/activity"
+        android:text="推广活动"
+        />
+</LinearLayout>

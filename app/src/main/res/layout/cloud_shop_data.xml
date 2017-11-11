@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--店铺实时数据-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="店铺实时数据"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textview2"
+        android:text="（15:00更新）"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#999999"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/main_shop_data_right"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/linearlayout2"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/right" />
+
+    <View
+        android:id="@+id/view3"
+        style="@style/SplitThin"
+        android:layout_below="@id/textview2" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view3"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textview3"
+                style="@style/CloudShopDataRedZero"
+                android:text="10000"
+                 />
+
+            <TextView
+               style="@style/CloudShopData"
+                android:layout_below="@id/textview3"
+                android:text="支付买家数(人)"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="#a0a0a0"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textview4"
+                style="@style/CloudShopDataRedZero"
+                android:text="100000"
+                 />
+
+            <TextView
+                android:layout_below="@id/textview4"
+                style="@style/CloudShopData"
+                android:text="支付买家数(人)"
+                 />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view4"
+        style="@style/SplitThin"
+        android:layout_below="@id/linearlayout2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view4"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textview5"
+               style="@style/CloudShopDataZero"
+                android:text="10000"
+                 />
+
+            <TextView
+                style="@style/CloudShopData"
+                android:layout_below="@id/textview5"
+                android:text="订单数"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textview6"
+                style="@style/CloudShopDataZero"
+                android:text="0"
+                 />
+
+            <TextView
+                style="@style/CloudShopData"
+                android:layout_below="@id/textview6"
+                android:text="会员量"
+                 />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textview7"
+                style="@style/CloudShopDataZero"
+                android:text="0"
+                 />
+
+            <TextView
+                style="@style/CloudShopData"
+                android:layout_below="@id/textview7"
+                android:text="意向购买"
+                 />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textview8"
+                style="@style/CloudShopDataZero"
+                android:text="0"
+                />
+
+            <TextView
+                style="@style/CloudShopData"
+                android:layout_below="@id/textview8"
+                android:text="关注量"
+                 />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textview9"
+                style="@style/CloudShopDataZero"
+                android:text="0"
+                 />
+
+            <TextView
+                style="@style/CloudShopData"
+                android:layout_below="@id/textview9"
+                android:text="收藏量"
+                 />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

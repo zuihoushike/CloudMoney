@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00ffffff"
+    >
+
+    <View
+        android:id="@+id/cloud_status_gone_color"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cloud_status_gone_color"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/cloud_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@mipmap/nav_left_black"/>
+
+        <ImageView
+            android:id="@+id/cloud_share"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:src="@mipmap/nav_business_share_b"/>
+
+        <ImageView
+            android:id="@+id/cloud_search_box"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/cloud_share"
+            android:layout_toRightOf="@id/cloud_back"
+            android:src="@mipmap/search_box"/>
+
+        <ImageView
+            android:id="@+id/cloud_search_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="160dp"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@mipmap/search"/>
+        <TextView
+            android:id="@+id/cloud_search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/cloud_search_icon"
+            android:layout_centerVertical="true"
+            android:text="搜索"
+            android:textColor="#a0a0a0"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+</RelativeLayout>

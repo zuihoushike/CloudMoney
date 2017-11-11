@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <View
+        style="@style/SplitThin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/GoodsSmallTitle"
+            android:text="价格"
+            android:textColor="#000000"/>
+
+        <View
+            style="@style/SplitThin"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="原价"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#00000000"
+                android:hint="必填"/>
+
+            <View
+                style="@style/SplitThin"
+                android:layout_below="@id/textview1"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商城价"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#00000000"
+                android:hint="必填"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/SplitThin"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="私人定制"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="厂家直批"/>
+    </LinearLayout>
+    <include layout="@layout/crude_split"/>
+
+</LinearLayout>

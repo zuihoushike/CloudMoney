@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/pic_admin_bg"
+    android:padding="10dp"
+    >
+
+    <View
+        android:id="@+id/fr_mine_status_color"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#00ffffff"/>
+
+    <RelativeLayout
+        android:id="@+id/relativelayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_below="@id/fr_mine_status_color">
+
+        <TextView
+            style="@style/PageTitle"
+            android:text="我的"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="设置"
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v1"
+        style="@style/SplitThin"
+        android:layout_below="@id/relativelayout3"
+        android:layout_marginBottom="10dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/v1"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/x1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/pic_admin"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/x1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mine_self_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="个人昵称"
+                android:textColor="#fff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="183****1234"
+                android:textColor="#fff"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/btn_more_ashes"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativelayout1"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textview4"
+                style="@style/MineTopText"
+                android:text="￥271.68"
+                />
+
+            <TextView
+                style="@style/MineTopText"
+                android:layout_below="@id/textview4"
+                android:text="信用额度"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textview5"
+                style="@style/MineTopText"
+                android:text="￥271.68"
+                />
+
+            <TextView
+                style="@style/MineTopText"
+                android:layout_below="@id/textview5"
+                android:text="信用额度"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textview6"
+                style="@style/MineTopText"
+                android:text="￥271.68"
+                />
+
+            <TextView
+                style="@style/MineTopText"
+                android:layout_below="@id/textview6"
+                android:text="信用额度"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

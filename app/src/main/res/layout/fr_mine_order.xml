@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="全部订单"
+            android:textColor="#000000"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/btn_more_ashes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/imageview1"
+            android:text="全部"
+            android:textColor="#a0a0a0"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view1"
+        style="@style/SplitThin"
+        android:layout_below="@id/relativelayout1"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            style="@style/MineOrder">
+
+            <TextView
+                style="@style/MineOrder"
+                android:drawableTop="@mipmap/icon_admin_payment"
+                android:text="待付款"/>
+
+            <include layout="@layout/fr_small_red_point"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/MineOrder">
+
+            <TextView
+                style="@style/MineOrder"
+                android:drawableTop="@mipmap/icon_admin_shipping"
+                android:text="待发货"/>
+            <include layout="@layout/fr_small_red_point" android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/MineOrder">
+
+            <TextView
+                style="@style/MineOrder"
+                android:drawableTop="@mipmap/icon_sh"
+                android:text="待收货"/>
+            <include layout="@layout/fr_small_red_point" android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/MineOrder">
+
+            <TextView
+                style="@style/MineOrder"
+                android:drawableTop="@mipmap/icon_admin_appraise_5"
+                android:text="待评价"/>
+            <include layout="@layout/fr_small_red_point" android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/MineOrder">
+
+            <TextView
+                style="@style/MineOrder"
+                android:drawableTop="@mipmap/icon_shou"
+                android:text="售后"/>
+            <include layout="@layout/fr_small_red_point" android:visibility="gone"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

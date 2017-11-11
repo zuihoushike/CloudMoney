@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal"
+    android:padding="2dp"
+    android:visibility="gone"
+    android:id="@+id/fab_no_use_layout"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:src="@mipmap/dt5"
+        />
+
+    <TextView
+        android:id="@+id/tv_fab_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:text="路飞， 乌索普， 娜美，索隆，山治， 乔巴等赞过"
+        android:textColor="#00bfff"
+        android:textSize="14sp"/>
+
+</LinearLayout>

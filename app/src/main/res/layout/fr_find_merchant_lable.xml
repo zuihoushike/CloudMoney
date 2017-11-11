@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/icon_find_household"
+            android:text="家居"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/icon_find_baby"
+            android:text="婴幼儿"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/icon_find_food"
+            android:text="美食"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/icon_find_clothing"
+            android:text="服饰"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/icon_find_games"
+            android:text="娱乐"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/FindLable"
+            android:drawablePadding="10dp"
+            android:drawableTop="@mipmap/icon_find_outdoors"
+            android:text="户外"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/icon_find_vicinity"
+            android:text="附近"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/icon_find_more"
+            android:text="更多"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

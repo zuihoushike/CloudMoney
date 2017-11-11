@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="#ffffff"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:text="附近商家"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/textview1"
+            android:src="@mipmap/icon_index_title_l"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/textview1"
+            android:src="@mipmap/icon_index_title_r"/>
+    </RelativeLayout>
+
+    <View
+        style="@style/SplitThin"/>
+
+    <RadioGroup
+        android:id="@+id/home_nearby_sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="13dp">
+
+        <RadioButton
+            android:id="@+id/home_nearby_entity"
+            style="@style/HomeNearby"
+            android:checked="true"
+            android:text="实体店铺"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/home_nearby_personal"
+            style="@style/HomeNearby"
+            android:text="个人店铺"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/home_nearby_factory"
+            style="@style/HomeNearby"
+            android:text="直通工厂"
+            android:textSize="18sp"/>
+    </RadioGroup>
+
+    <View
+        style="@style/SplitThin"/>
+
+    <name.hd.cloudmoney.view.NoRollListView
+        android:id="@+id/home_nearby_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </name.hd.cloudmoney.view.NoRollListView>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@mipmap/xl6"/>
+
+</LinearLayout>

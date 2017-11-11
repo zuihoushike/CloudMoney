@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+    >
+
+    <View
+        android:id="@+id/fr_home_status_gone_color"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fr_home_status_gone_color">
+
+        <TextView
+            android:id="@+id/home_gone_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="西安"
+            android:textColor="#000000"
+            android:textSize="19sp"/>
+
+        <ImageView
+            android:id="@+id/home_src_gone_position"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/home_gone_position"
+            android:src="@mipmap/xl6"/>
+
+        <ImageView
+            android:id="@+id/home_gone_swipe"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:src="@mipmap/nav_index_scan"/>
+
+        <ImageView
+            android:id="@+id/home_search_gone_box"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/home_gone_swipe"
+            android:layout_toRightOf="@id/home_src_gone_position"
+            android:src="@mipmap/search_box"/>
+
+        <ImageView
+            android:id="@+id/home_search_gone_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/search"/>
+
+        <TextView
+            android:id="@+id/home_search_gone_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/home_search_gone_icon"
+            android:text="搜索"
+            android:textColor="#a0a0a0"
+            android:textSize="19sp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

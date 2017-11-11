@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/find_title_screen"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/nav_find_screen"/>
+
+        <TextView
+            android:id="@+id/find_title_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="30sp"/>
+
+        <RadioGroup
+            android:id="@+id/find_title_lable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/find_title_add"
+            android:layout_toRightOf="@id/find_title_screen"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/find_title_person"
+                style="@style/FindTopNav"
+                android:checked="true"
+                android:text="人"
+                android:textSize="19sp"/>
+
+            <RadioButton
+                android:id="@+id/find_title_group"
+                style="@style/FindTopNav"
+                android:text="群组"
+                android:textSize="19sp"/>
+
+            <RadioButton
+                android:id="@+id/find__title_dynamic"
+                style="@style/FindTopNav"
+                android:text="动态"
+                android:textSize="19sp"/>
+
+            <RadioButton
+                android:id="@+id/find_title_merchant"
+                style="@style/FindTopNav"
+                android:text="商家"
+                android:textSize="19sp"/>
+        </RadioGroup>
+
+        <View
+            style="@style/SplitThin"
+            android:layout_alignBottom="@id/find_title_lable"
+            />
+        <!--下面那条线，不过失效，所以用了drawable作背景的一条线-->
+        <!--<View
+            android:id="@+id/find_slide_line"
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:layout_alignLeft="@id/find_title_lable"
+            android:layout_below="@id/find_title_lable"
+            android:background="#00bfff"/>-->
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/find_pages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relativelayout1">
+
+
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

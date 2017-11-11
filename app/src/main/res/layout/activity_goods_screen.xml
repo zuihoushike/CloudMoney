@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="name.hd.cloudmoney.GoodsScreenActivity">
+
+    <!--<View
+        android:id="@+id/screen_status_color"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#55a0a0a0"
+            >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/pop_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="#ffffff"
+            android:orientation="vertical">
+            <include layout="@layout/g_screen_bottom_button"/>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/g_screen_title"/>
+
+                    <include layout="@layout/g_screen_active_goods"/>
+
+                    <include layout="@layout/g_screen_grounding_status"/>
+
+                    <include layout="@layout/g_screen_eval"/>
+
+                    <include layout="@layout/g_screen_up_time"/>
+                </LinearLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

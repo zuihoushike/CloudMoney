@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="基金排行"
+        android:textSize="20sp"/>
+    <View
+        android:id="@+id/view1"
+        style="@style/SplitThin"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/textview1"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textview2"
+                style="@style/MoneysFundRank"
+                android:layout_centerHorizontal="true"
+                android:text="4.0%+2%"
+                android:textColor="#ff6100"
+                android:textSize="22sp"/>
+
+            <TextView
+                style="@style/MoneysFundRank"
+                android:layout_below="@id/textview2"
+                android:text="7日年化最高"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="#ff6100"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textview3"
+                style="@style/MoneysFundRank"
+                android:text="白条理财 体验高收益 标题如果很长..."
+                android:textColor="#000000"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textview4"
+                style="@style/MoneysFundRank"
+                android:layout_below="@id/textview3"
+                android:text="高收益 来就送"
+                android:textColor="#ff6100"
+                android:textSize="15sp"/>
+
+            <TextView
+                style="@style/MoneysFundRank"
+                android:layout_below="@id/textview4"
+                android:text="有人说肯定赚，有人说一个月下来赚的..."
+                android:textColor="#a0a0a0"
+                android:textSize="15sp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/SplitThin"
+        android:layout_below="@id/linearlayout2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlayout2"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textview5"
+                style="@style/MoneysFundRank"
+                android:layout_centerHorizontal="true"
+                android:text="5.0%"
+                android:textColor="#ff6100"
+                android:textSize="22sp"/>
+
+            <TextView
+                style="@style/MoneysFundRank"
+                android:layout_below="@id/textview5"
+                android:text="高收益高回报"
+                android:textColor="#000000"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="#ff6100"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textview6"
+                style="@style/MoneysFundRank"
+                android:text="无风险 高回报"
+                android:textColor="#000000"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textview7"
+                style="@style/MoneysFundRank"
+                android:layout_below="@id/textview6"
+                android:text="史上最高回报"
+                android:textColor="#ff6100"
+                android:textSize="15sp"/>
+
+            <TextView
+                style="@style/MoneysFundRank"
+                android:layout_below="@id/textview7"
+                android:text="任何回报都是有投资的，可你知道你投..."
+                android:textColor="#a0a0a0"
+                android:textSize="15sp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

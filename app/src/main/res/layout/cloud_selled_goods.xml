@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><!--已卖出的货品-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    >
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="已卖出的货品"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+
+    <View
+        android:id="@+id/view1"
+        style="@style/SplitThin"
+        android:layout_below="@id/textview1" />
+
+    <ImageView
+        android:id="@+id/iv_sell_all"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_above="@+id/linearlayout1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/right" />
+
+    <TextView
+        android:id="@+id/sell_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/view1"
+        android:layout_toLeftOf="@id/iv_sell_all"
+        android:paddingBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:text="全部订单" />
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        >
+
+        <TextView
+            android:id="@+id/main_willpay"
+            style="@style/CloudBuy"
+            android:drawableTop="@mipmap/icon_01"
+            android:text="待付款" />
+
+        <TextView
+            android:id="@+id/main_willdeliver"
+            style="@style/CloudBuy"
+            android:drawableTop="@mipmap/icon_02"
+            android:text="待发货" />
+
+        <TextView
+            android:id="@+id/main_willverify"
+            style="@style/CloudBuy"
+            android:drawableTop="@mipmap/iicon_03"
+            android:text="待确认收货" />
+
+        <TextView
+            android:id="@+id/main_willeval"
+            style="@style/CloudBuy"
+            android:drawableTop="@mipmap/icon_04"
+            android:text="待评价" />
+
+        <TextView
+            android:id="@+id/main_sellafter"
+            style="@style/CloudBuy"
+            android:drawableTop="@mipmap/icon_05"
+            android:text="售后" />
+    </LinearLayout>
+</RelativeLayout>

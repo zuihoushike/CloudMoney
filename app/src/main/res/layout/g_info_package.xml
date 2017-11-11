@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/info_title"
+            style="@style/GoodsSmallTitle"
+            android:layout_centerInParent="true"
+            android:text="搭配套餐"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/info_title"
+            android:text="- "
+            android:textColor="#000000"
+            android:textSize="23dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/info_title"
+            android:text=" -"
+            android:textColor="#000000"
+            android:textSize="23dp"/>
+    </RelativeLayout>
+    <View
+        android:layout_marginBottom="10dp"
+        style="@style/SplitThin"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="选择商品"/>
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/xl6"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/imageview1"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="2017秋季最火卫衣加厚..."/>
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="10dp"
+        style="@style/SplitThin"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="套餐价格"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="500.00"/>
+    </RelativeLayout>
+
+</LinearLayout>

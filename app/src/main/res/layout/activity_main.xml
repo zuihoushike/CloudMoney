@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="name.hd.cloudmoney.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/main_bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/main_home"
+            style="@style/MainBottomNav"
+            android:checked="true"
+            android:drawableTop="@drawable/select_home"
+            android:text="首页"/>
+        <RadioButton
+            android:id="@+id/main_circle"
+            style="@style/MainBottomNav"
+            android:drawableTop="@drawable/select_circle"
+            android:text="圈子"/>
+        <RadioButton
+            android:id="@+id/main_find"
+            style="@style/MainBottomNav"
+            android:drawableTop="@drawable/select_find"
+            android:text="发现"/>
+        <RadioButton
+            android:id="@+id/main_money"
+            style="@style/MainBottomNav"
+            android:drawableTop="@drawable/select_money"
+            android:text="金库"/>
+        <RadioButton
+            android:id="@+id/main_mine"
+            style="@style/MainBottomNav"
+            android:drawableTop="@drawable/select_mine"
+            android:text="我的"/>
+
+    </RadioGroup>
+    <View
+        android:id="@+id/main_down_line"
+        style="@style/SplitThin"
+        android:layout_above="@id/main_bottom_nav"/>
+    <LinearLayout
+        android:id="@+id/ll_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_down_line"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</RelativeLayout>

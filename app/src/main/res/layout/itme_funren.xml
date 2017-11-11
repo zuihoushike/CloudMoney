@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:id="@+id/x1"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/pic_find_1"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/x1"
+            android:layout_alignTop="@+id/x1"
+            android:layout_toRightOf="@+id/x1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/FindGroupName"
+                    android:text="这里是昵称哦哦..."/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/icon_index_idle"/>
+            </LinearLayout>
+
+            <TextView
+                style="@style/FindGroupType"
+                android:background="@drawable/find_group_type_pink_bg"
+                android:text="♀23"
+                />
+
+            <TextView
+                style="@style/FindGroupInfo"
+                android:text="天若有情天亦老，人间正道是沧桑。最长..."
+                />
+        </LinearLayout>
+
+        <TextView
+            style="@style/FindGroupDistance"
+            android:text="77.74km 15分钟前"
+            android:layout_alignTop="@id/linearlayout1"
+            />
+
+        <View
+            style="@style/SplitThin"
+            android:layout_alignLeft="@id/linearlayout1"
+            android:layout_below="@id/linearlayout1"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x2"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/pic_find_2"/>
+
+        <LinearLayout
+            android:id="@id/linearlayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/x2"
+            android:layout_alignTop="@+id/x2"
+            android:layout_toRightOf="@+id/x2"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/FindGroupName"
+                android:text="三个小伙伴"/>
+
+            <TextView
+                style="@style/FindGroupType"
+                android:background="@drawable/find_group_type_shallow_blue_bg"
+                android:text="♂23"
+                />
+
+            <TextView
+                style="@style/FindGroupInfo"
+                android:text="一起奔跑吧。"
+                />
+        </LinearLayout>
+
+        <TextView
+            style="@style/FindGroupDistance"
+            android:text="8.21km 15分钟前"
+            android:layout_alignTop="@id/linearlayout2"
+            />
+
+        <View
+            style="@style/SplitThin"
+            android:layout_alignLeft="@id/linearlayout2"
+            android:layout_below="@id/linearlayout2"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x3"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/pic_find_3"/>
+
+        <LinearLayout
+            android:id="@id/linearlayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/x3"
+            android:layout_alignTop="@+id/x3"
+            android:layout_toRightOf="@+id/x3"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/FindGroupName"
+                android:text="一杯咖啡"/>
+
+            <TextView
+                style="@style/FindGroupType"
+                android:background="@drawable/find_group_type_shallow_blue_bg"
+                android:text="♂26"
+                />
+
+            <TextView
+                style="@style/FindGroupInfo"
+                android:text="我为什么叫一杯咖啡，我愿意啊。"
+                />
+        </LinearLayout>
+
+        <TextView
+            style="@style/FindGroupDistance"
+            android:text="8.23km 17分钟前"
+            android:layout_alignTop="@id/linearlayout3"
+            />
+
+        <View
+            style="@style/SplitThin"
+            android:layout_alignLeft="@id/linearlayout3"
+            android:layout_below="@id/linearlayout3"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x4"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/pic_find_4"/>
+
+        <LinearLayout
+            android:id="@id/linearlayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/x4"
+            android:layout_alignTop="@+id/x4"
+            android:layout_toRightOf="@+id/x4"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/FindGroupName"
+                android:text="亚瑟最厉害"/>
+
+            <TextView
+                style="@style/FindGroupType"
+                android:background="@drawable/find_group_type_shallow_blue_bg"
+                android:text="♂23"
+                />
+
+            <TextView
+                style="@style/FindGroupInfo"
+                android:text="王者荣耀，一起开黑，带你上钻石，专业..."
+                />
+        </LinearLayout>
+
+        <TextView
+            style="@style/FindGroupDistance"
+            android:text="9.00km 17分钟前"
+            android:layout_alignTop="@id/linearlayout4"
+            />
+
+        <View
+            style="@style/SplitThin"
+            android:layout_alignLeft="@id/linearlayout4"
+            android:layout_below="@id/linearlayout4"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x5"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/pic_find_5"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/x5"
+            android:layout_alignTop="@+id/x5"
+            android:layout_toRightOf="@+id/x5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/FindGroupName"
+                android:text="colin"/>
+
+            <TextView
+                style="@style/FindGroupType"
+                android:background="@drawable/find_group_type_pink_bg"
+                android:text="♀26"
+                />
+
+            <TextView
+                style="@style/FindGroupInfo"
+                android:text="什么什么什么事？？？？"
+                />
+        </LinearLayout>
+
+        <TextView
+            style="@style/FindGroupDistance"
+            android:text="9.21km 20分钟前"
+            android:layout_alignTop="@id/linearlayout5"
+            />
+
+        <View
+            style="@style/SplitThin"
+            android:layout_alignLeft="@id/linearlayout5"
+            android:layout_below="@id/linearlayout5"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

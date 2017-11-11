@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/dt4"/>
+
+        <TextView
+            style="@style/FindDynamicScanComFab"
+            android:text="1230"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="23dp"
+            android:src="@mipmap/dt2"/>
+
+        <TextView
+            style="@style/FindDynamicScanComFab"
+            android:text="1230"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_circle_fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/iv_circle_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="23dp"
+            android:src="@mipmap/dt3"/>
+
+        <TextView
+            android:id="@+id/tv_circle_fab"
+            style="@style/FindDynamicScanComFab"
+            android:text="1230"/>
+    </LinearLayout>
+</LinearLayout>

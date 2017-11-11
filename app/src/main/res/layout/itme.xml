@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x1"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/pic_find_group_1"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/x1"
+            android:layout_alignTop="@+id/x1"
+            android:layout_toRightOf="@+id/x1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/FindGroupName"
+                android:text="名字最长显示十个字吧..."
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/find_group_type_shallow_blue_bg">
+
+                    <ImageView
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/s4"/>
+
+                    <TextView
+                        style="@style/FindGroupType"
+                        android:text="321"/>
+                </LinearLayout>
+                <TextView
+                    style="@style/FindGroupType"
+                    android:background="@drawable/find_group_type_pink_bg"
+                    android:layout_marginRight="7dp"
+                    android:text="女120"/>
+
+                <TextView
+                    style="@style/FindGroupType"
+                    android:background="@drawable/find_group_type_yellow_bg"
+                    android:text="跑步吧，向前跑"
+                    />
+            </LinearLayout>
+
+            <TextView
+                style="@style/FindGroupInfo"
+                android:text="这里是签名，假如说我的签名超级超级长..."
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/find_group_distance1"
+            android:text="100.01km"
+            style="@style/FindGroupDistance"/>
+        <View
+            style="@style/SplitThin"
+            android:layout_alignLeft="@id/linearlayout1"
+            android:layout_below="@id/linearlayout1"
+            android:layout_marginTop="15dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x2"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/pic_find_group_2"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/x2"
+            android:layout_alignTop="@+id/x2"
+            android:layout_toRightOf="@+id/x2"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/FindGroupName"
+                android:text="名字最长显示十个字吧..."
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/FindGroupType"
+                    android:background="@drawable/find_group_type_pink_bg"
+                    android:layout_marginRight="7dp"
+                    android:text="女120"/>
+
+                <TextView
+                    style="@style/FindGroupType"
+                    android:background="@drawable/find_group_type_yellow_bg"
+                    android:text="王者荣耀的迷妹"
+                    />
+            </LinearLayout>
+
+            <TextView
+                style="@style/FindGroupInfo"
+                android:text="带你上王者。"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/find_group_distance2"
+            android:text="0.26km"
+            style="@style/FindGroupDistance"/>
+        <View
+            style="@style/SplitThin"
+            android:layout_alignLeft="@id/linearlayout2"
+            android:layout_below="@id/linearlayout2"
+            android:layout_marginTop="15dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x3"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/pic_find_group_2_1"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/x3"
+            android:layout_alignTop="@+id/x3"
+            android:layout_toRightOf="@+id/x3"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/FindGroupName"
+                android:text="名字最长显示十个字吧..."
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/FindGroupType"
+                    android:background="@drawable/find_group_type_yellow_bg"
+                    android:text="二次元与世界"
+                    />
+            </LinearLayout>
+
+            <TextView
+                style="@style/FindGroupInfo"
+                android:text="动漫爱好者，分你想资源。"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/find_group_distance3"
+            android:text="0.37km"
+            style="@style/FindGroupDistance"/>
+        <View
+            style="@style/SplitThin"
+            android:layout_alignLeft="@id/linearlayout3"
+            android:layout_below="@id/linearlayout3"
+            android:layout_marginTop="15dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/x4"
+            style="@style/ChatHeadIcon"
+            android:src="@mipmap/pic_find_group_4"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/x4"
+            android:layout_alignTop="@+id/x4"
+            android:layout_toRightOf="@+id/x4"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/FindGroupName"
+                android:text="名字最长显示十个字吧..."
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/FindGroupType"
+                    android:background="@drawable/find_group_type_yellow_bg"
+                    android:text="我们都是小可爱"
+                    />
+            </LinearLayout>
+
+            <TextView
+                style="@style/FindGroupInfo"
+                android:text="00的世界"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/find_group_distance"
+            android:text="0.46km"
+            style="@style/FindGroupDistance"/>
+        <View
+            style="@style/SplitThin"
+            android:layout_alignLeft="@id/linearlayout4"
+            android:layout_below="@id/linearlayout4"
+            android:layout_marginTop="15dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

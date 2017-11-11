@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+    <TextView
+        style="@style/GoodsInfoMenu"
+        android:text="工厂通"/>
+    <TextView
+        style="@style/GoodsInfoMenu"
+        android:text="美食"/>
+    <TextView
+        style="@style/GoodsInfoMenu"
+        android:text="外卖"/>
+</LinearLayout>

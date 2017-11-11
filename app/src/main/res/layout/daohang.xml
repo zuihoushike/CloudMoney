@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/pic_find_group_classify_1"
+            android:text="王者荣耀"
+             />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/pic_find_group_classify_2"
+            android:text="跑步群"
+             />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/pic_find_group_classify_3"
+            android:text="一起来运动"
+             />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/pic_find_group_classify_4"
+            android:text="相亲吧"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/pic_find_group_classify_5"
+            android:text="学习交流"
+             />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/pic_find_group_classify_6"
+            android:text="九零后"
+             />
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/pic_find_group_classify_7"
+            android:text="动漫爱好者"
+            />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/FindLable"
+            android:drawableTop="@mipmap/pic_find_group_classify_8"
+            android:text="交友"
+             />
+    </LinearLayout>
+    <include layout="@layout/crude_split" />
+</LinearLayout>

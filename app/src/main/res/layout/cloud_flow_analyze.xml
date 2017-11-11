@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--流量分析-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="流量分析"
+        android:textColor="#333333"
+        android:textSize="21sp" />
+
+    <View style="@style/SplitThin" />
+
+    <RelativeLayout style="@style/FlowAnalyzeSet">
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/customer" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/imageview1"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="100"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview1"
+                android:layout_gravity="center"
+                android:text="增加人数(日)"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/linearlayout1"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="客户流量"
+                style="@style/CloudNull"
+                android:textColor="#000000"
+                android:textSize="18.5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今日客户流量增加10次，对比昨日增长10%"
+                android:textColor="#333333"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/SplitThin" />
+
+    <RelativeLayout style="@style/FlowAnalyzeSet">
+
+        <ImageView
+            android:id="@+id/imageview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/goods" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/imageview2"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="100"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview1"
+                android:layout_gravity="center"
+                android:text="增加人数(日)"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/linearlayout2"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商品流量"
+                style="@style/CloudNull"
+                android:textColor="#000000"
+                android:textSize="18.5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今日客户流量增加10次，对比昨日增长10%"
+                android:textColor="#333333"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View style="@style/SplitThin" />
+
+    <RelativeLayout style="@style/FlowAnalyzeSet">
+
+        <ImageView
+            android:id="@+id/imageview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/activity" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/imageview3"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="100"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview1"
+                android:layout_gravity="center"
+                android:text="增加人数(日)"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/linearlayout3"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="活动流量"
+                style="@style/CloudNull"
+                android:textColor="#000000"
+                android:textSize="18.5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今日客户流量增加10次，对比昨日增长10%"
+                android:textColor="#333333"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
