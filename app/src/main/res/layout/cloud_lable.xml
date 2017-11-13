@@ -10,7 +10,7 @@
         android:id="@+id/cloud_status_color"
         android:layout_width="match_parent"
         android:layout_height="5dp"
-        android:background="#00ffffff"/>
+        />
 
     <include layout="@layout/cloud_title" android:id="@+id/cloud_active_title"/>
 

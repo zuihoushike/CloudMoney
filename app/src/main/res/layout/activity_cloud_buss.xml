@@ -9,7 +9,8 @@
 
     <include
         android:id="@+id/cloud_fixed_title"
-        layout="@layout/cloud_fixed_search"/>
+        layout="@layout/cloud_fixed_search"
+        android:visibility="gone"/>
     <!--标题栏下放ScrollView使标题栏下可以滚动-->
     <name.hd.cloudmoney.view.SmartScrollView
         android:id="@+id/sv_main"

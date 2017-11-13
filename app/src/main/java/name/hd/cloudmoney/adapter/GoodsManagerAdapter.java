@@ -17,6 +17,7 @@ import name.hd.cloudmoney.GoodsInfoActivity;
 import name.hd.cloudmoney.GoodsManagerActivity;
 import name.hd.cloudmoney.R;
 import name.hd.cloudmoney.bean.Goods;
+import name.hd.cloudmoney.custom.FormatDouble;
 import name.hd.cloudmoney.db.StateDB;
 
 /**
@@ -81,7 +82,7 @@ public class GoodsManagerAdapter extends BaseAdapter {
         holder.scanNum.setText("浏览" + goods.get(i).getScanNum());
         holder.selledNum.setText("已售" + goods.get(i).getSelledNum());
 //        holder.state.setText(goods.get(i).getState());
-        holder.price.setText("￥" + goods.get(i).getPrice());
+        holder.price.setText("￥" + FormatDouble.f2(goods.get(i).getPrice()));
         if (mActivity.n % 2 == 1) {
             holder.mCbSelect.setVisibility(View.VISIBLE);
         } else if (mActivity.n % 2 == 0) {

@@ -12,14 +12,11 @@ import android.content.Context;
 import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import java.util.List;
 
 /**
- * Created by Yolanda on 2016/5/5.
- * 
- * @author Yolanda; QQ: 757699476
+ *
  */
 public class BannerAdapter<T extends View> extends PagerAdapter {
 
