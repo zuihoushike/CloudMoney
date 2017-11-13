@@ -211,7 +211,9 @@ public class CloudBussActivity extends Activity implements OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.main_shop_angel:
-                Toast.makeText(this, "店铺天使", Toast.LENGTH_SHORT).show();
+                intent=new Intent(this,ShopAngelActivity.class);
+                startActivity(intent);
+//                Toast.makeText(this, "店铺天使", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.main_shop_chain:
                 Toast.makeText(this, "门店连锁", Toast.LENGTH_SHORT).show();

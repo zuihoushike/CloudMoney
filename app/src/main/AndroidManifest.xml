@@ -107,24 +107,23 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".GoodsClassifyActivity">
         </activity>
-        <!--下面theme使筛选变成左右两个不同背景的布局-->
+        <!-- 下面theme使筛选变成左右两个不同背景的布局 -->
         <activity
             android:name=".GoodsScreenActivity"
             android:theme="@android:style/Theme.Translucent">
         </activity>
-        <!--windowSoftInputMode属性使输入法不再默认弹出-->
+        <!-- windowSoftInputMode属性使输入法不再默认弹出 -->
         <activity
             android:name=".GoodsInfoActivity"
             android:windowSoftInputMode="adjustUnspecified|stateHidden">
         </activity>
         <activity android:name=".uploadImg.BaseActivity">
-
         </activity>
         <activity android:name=".uploadImg.ChooseActivity">
-
         </activity>
         <activity android:name=".uploadImg.ChooseFragmentActivity">
-
+        </activity>
+        <activity android:name=".ShopAngelActivity">
         </activity>
     </application>
 
